@@ -1,0 +1,111 @@
+{
+    "patients": [
+      {
+        "id": 1,
+        "name": "Amanda Smith",
+        "email": "amanda@example.com",
+        "password": "password123", 
+        "appointments": [
+          {
+            "id": 101,
+            "doctor": "Dr. John Doe",
+            "date": "2024-11-20",
+            "time": "10:00 AM",
+            "status": "Scheduled"
+          },
+          {
+            "id": 102,
+            "doctor": "Dr. Sarah Lee",
+            "date": "2024-12-05",
+            "time": "2:00 PM",
+            "status": "Scheduled"
+          }
+        ],
+        "notifications": [
+          {
+            "id": 201,
+            "title": "Lab Results Available",
+            "description": "Your blood test results are available in the portal.",
+            "time": "2 hours ago"
+          },
+          {
+            "id": 202,
+            "title": "Treatment Plan Update",
+            "description": "Please review the updated treatment plan.",
+            "time": "1 day ago"
+          }
+        ],
+        "quickLinks": [
+          {
+            "name": "My Profile",
+            "description": "Edit your personal information.",
+            "action": "Edit Profile"
+          },
+          {
+            "name": "My Payments",
+            "description": "Manage your payment methods.",
+            "action": "Manage Payments"
+          },
+          {
+            "name": "View Invoices",
+            "description": "Check and download your medical invoices.",
+            "action": "View Invoices"
+          }
+        ]
+      }
+    ],
+    "doctors": [
+      {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "email": "johndoe@example.com",
+        "password": "docpassword123",
+        "specialization": "Cardiology",
+        "appointments": [
+          {
+            "id": 301,
+            "patient": "Amanda Smith",
+            "date": "2024-11-20",
+            "time": "10:00 AM",
+            "status": "Scheduled"
+          },
+          {
+            "id": 302,
+            "patient": "Michael Green",
+            "date": "2024-11-22",
+            "time": "11:00 AM",
+            "status": "Scheduled"
+          }
+        ],
+        "notifications": [
+          {
+            "id": 401,
+            "title": "New Patient Inquiry",
+            "description": "You have a new patient inquiry from Amanda Smith.",
+            "time": "1 hour ago"
+          },
+          {
+            "id": 402,
+            "title": "Appointment Update",
+            "description": "The appointment with Michael Green has been rescheduled.",
+            "time": "3 hours ago"
+          }
+        ]
+      }
+    ],
+    "loginInfo": {
+      "patients": [
+        {
+          "email": "amanda@example.com",
+          "password": "password123"
+        }
+      ],
+      "doctors": [
+        {
+          "email": "johndoe@example.com",
+          "password": "docpassword123"
+        }
+      ]
+    }
+  }
+  
